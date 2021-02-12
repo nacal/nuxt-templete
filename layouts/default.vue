@@ -1,22 +1,24 @@
 <template>
-  <div class="layout">
+  <div>
     <Header class="layout__header" />
     <Nuxt class="layout__main" />
     <Footer class="layout__footer" />
   </div>
 </template>
 
-<style>
-.layout__header {
-  min-height: 20vh;
-  font-size: 0.5rem;
-}
+<style lang="scss">
+.layout {
+  &__header {
+    min-height: 20vh;
+    font-size: 0.5rem;
+  }
 
-.layout__main {
-  width: 100%;
-}
+  &__main {
+    width: 100%;
+  }
 
-.layout__footer {
-  min-height: 5vh;
+  &__footer {
+    min-height: 5vh;
+  }
 }
 </style>
