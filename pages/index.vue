@@ -8,17 +8,17 @@
           href="https://nuxtjs.org/"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--green"
+          class="links__item"
         >
-          Documentation
+          Nuxt.js Documentation
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/nkthkr/nuxt-templete"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--grey"
+          class="links__item"
         >
-          GitHub
+          This Templete GitHub
         </a>
       </div>
     </div>
@@ -29,7 +29,7 @@
 export default {}
 </script>
 
-<style>
+<style lang="scss">
 .container {
   display: flex;
   align-items: center;
@@ -55,5 +55,10 @@ export default {}
 
 .links {
   padding-top: 15px;
+  text-decoration: underline;
+
+  &__item + &__item {
+    margin-top: 15px;
+  }
 }
 </style>
