@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <v-app>
     <Header class="layout__header" />
     <Nuxt class="layout__main" />
     <Footer class="layout__footer" />
-  </div>
+  </v-app>
 </template>
 
 <style lang="scss">
