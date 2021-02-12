@@ -15,6 +15,7 @@
 
   &__main {
     width: 100%;
+    min-height: 75vh;
   }
 
   &__footer {
