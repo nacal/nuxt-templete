@@ -23,7 +23,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+#app {
   height: 100%;
   font: set-size($base-font-size) / 1.5 $font-set-primary;
   color: $primary-text-color;
