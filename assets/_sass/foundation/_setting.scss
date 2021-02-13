@@ -12,11 +12,11 @@ $slim-content-width: 960px !default;
 
 // ブレークポイント
 $breakpoints: (
-  'sp': 480px,
-  'tab': 768px,
-  'lap': 1024px,
-  'desk': 1200px,
-  'wide': 1600px,
+  'xs': 320px,
+  'sm': 600px,
+  'md': 960px,
+  'lg': 1264px,
+  'xl': 1904px,
 ) !default;
 
 //====================================
